@@ -18,11 +18,17 @@ $ which python
 open project code in pycharm IDE and run following command
 
 $ pip install django==2.1.5
+
 $ django-admin startproject pyshop      // create django project
+
 $ python3 manage,py runserver           // to run project
+
 $ python3 manage.py startapp Products   // to create new app inside pyShop
+
 $ python3 manage.py makemigrations      // create migration
+
 $ python3 manage.py migrate.            // migrate the project database
+
 $ python3 manage,py runserver           //run python project
 
 open following into browser
