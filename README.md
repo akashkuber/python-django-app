@@ -19,17 +19,35 @@ open project code in pycharm IDE and run following command
 
 $ pip install django==2.1.5
 
-$ django-admin startproject pyshop      // create django project
+# create django project
+$ django-admin startproject pyshop      
 
-$ python3 manage,py runserver           // to run project
+# to run project
+$ python3 manage.py runserver    
 
-$ python3 manage.py startapp Products   // to create new app inside pyShop
+# to create new app inside pyShop
+$ python3 manage.py startapp Products  
 
-$ python3 manage.py makemigrations      // create migration
+# create migration
+$ python3 manage.py makemigrations      
 
-$ python3 manage.py migrate.            // migrate the project database
+# migrate the project database
+$ python3 manage.py migrate.           
 
-$ python3 manage,py runserver           //run python project
+# run python project
+$ python3 manage.py runserver           
+
+
+# createsuperuser
+$ python manage.py createsuperuser 
+
+Username: demo
+Email address: demo@demo.com
+
+Password: **********
+Password (again): *********
+Superuser created successfully.
+
 
 open following into browser
 
